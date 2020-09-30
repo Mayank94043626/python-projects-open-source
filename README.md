@@ -37,7 +37,7 @@ A collection of simple python mini projects to enhance your Python skills.
 
 - Create a folder in [projects directory](https://github.com/Mayank94043626/python-projects-open-source/tree/master/projects) according to issue name.
 - Write your code and add to the respective folder in the projects directory, locally.
-- Don't forget to add a `README.md` in your folder, according to the [README_TEMPLATE.](https://github.com/Mayank94043626/python-projects-open-source/master/README_TEMPLATE.md)
+- Don't forget to add a `README.md` in your folder, according to the [README_TEMPLATE.](https://github.com/Mayank94043626/python-projects-open-source/blob/master/README_TEMPLATE.md)
 - Add the changes with `git add`, `git commit` ([write a good commit message](https://chris.beams.io/posts/git-commit/), if possible):
 
     ```bash
@@ -60,4 +60,4 @@ A collection of simple python mini projects to enhance your Python skills.
 
 ## README Template for scripts
 
-[README Template](https://github.com/chavarera/python-projects-open-source/master/README_TEMPLATE.md)
+[README Template](https://github.com/chavarera/python-projects-open-source/blob/master/README_TEMPLATE.md)
