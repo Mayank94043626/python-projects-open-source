@@ -13,13 +13,13 @@ assignees: ''
 
 ## Type of issue
 
-- [ ] Feature (New Script)
+- [x] Feature (New Script)
 - [ ] Bug
 - [ ] Documentation
 
 ## Checklist:
 
-- [ ] I have read the project guidelines.
-- [ ] I have checked all the existing projects, before submitting a new project issue.
-- [ ] I have checked previous issues to avoid duplicates.
-- [ ] This issue will be meaningful for the project.
+- [x] I have read the project guidelines.
+- [x] I have checked all the existing projects, before submitting a new project issue.
+- [x] I have checked previous issues to avoid duplicates.
+- [x] This issue will be meaningful for the project.
