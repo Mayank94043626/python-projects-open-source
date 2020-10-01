@@ -35,8 +35,8 @@ A collection of simple python mini projects to enhance your Python skills.
 
 - If you run into a **merge conflict**, you have to resolve the conflict. There are a lot of guides online, or you can try this one by [opensource.com](https://opensource.com/article/20/4/git-merge-conflict).
 
-- Create a folder in [projects directory](https://github.com/Mayank94043626/python-projects-open-source/tree/master/projects) according to issue name.
-- Write your code and add to the respective folder in the projects directory, locally.
+- Create a folder in the [projects directory](https://github.com/Mayank94043626/python-projects-open-source/tree/master/projects) according to issue name.
+- Write your code and add it to the respective folder in the projects directory, locally.
 - Don't forget to add a `README.md` in your folder, according to the [README_TEMPLATE.](https://github.com/Mayank94043626/python-projects-open-source/blob/master/README_TEMPLATE.md)
 - Add the changes with `git add`, `git commit` ([write a good commit message](https://chris.beams.io/posts/git-commit/), if possible):
 
