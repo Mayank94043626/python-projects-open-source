@@ -2,6 +2,7 @@
 <!--Remove the below lines and add yours -->
 Python program to check whether a given password is valid or not.
 It checks the following points:
+
 	1.Length of password between 8 and 16.
 	2.Minimum one upper case letter.
 	3.Minimum one lowercase letter.
