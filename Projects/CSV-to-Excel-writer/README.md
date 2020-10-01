@@ -7,5 +7,5 @@ A programme that writes the data in any Comma-separated value file (such as: .cs
 ### How to run the script
 	python convert.py
 
-## *Author Name*
+## Author
 Muhammed Ali Dilek (xemeds)
