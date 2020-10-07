@@ -4,7 +4,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
 # Python Projects
-A collection of simple python mini projects to enhance your Python skills.
+A collection of useless python mini projects.
 
 
 ## Steps To Follow
