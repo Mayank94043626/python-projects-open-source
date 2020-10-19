@@ -1,9 +1,10 @@
 import random
 import math
+import string
 
-alpha = "abcdefghijklmnopqrstuvwxyz"
-num = "0123456789"
-special = "@#$%&*"
+alpha = string.ascii_lowercase
+num = string.digits
+special = string.punctuation
 
 # pass_len=random.randint(8,13)  #without User INput
 pass_len = int(input("Enter Password Length"))
