@@ -1,0 +1,10 @@
+##DNA Translation Analysis Using ML
+
+#Translate the DNA->RNA->Protein || dataset : https://www.ncbi.nlm.nih.gov/ Nucleotide sample : (NM_207618.2) || link: https://www.ncbi.nlm.nih.gov/nuccore/NM_207618.2
+
+
+Life depends on the ability of cells to store, retrieve, and translate genetic instructions.These instructions are needed to make and maintain living organisms.For a long time, it was not clear what molecules were able to copy and transmit genetic information.We now know that this information is carried by the dioxyribonucleic acid or DNA in all living things.
+
+In this project, we will first download a DNA strand as a text file from a public web-based repository of DNA sequences.We will then write code to translate the DNA sequence to a sequence of amino acids where each amino acid is represented by a unique letter.We will also download the amino acid sequence to check our solution.
+
+This technique can be implemented in biological and health science for curing Variant calling,Genome annotation and variant classification, Phenotype-to-genotype mapping,Genotype-to-phenotype prediction,and many more dieseses like cancer, alzheimer, and many more.
