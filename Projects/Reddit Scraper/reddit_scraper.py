@@ -1,16 +1,18 @@
-import requests
-import csv
-import time
-from bs4 import BeautifulSoup
+import requests   #to get the html data of the webpage 
+import csv        #to read and write on the html page 
+import time     #to add delay between requests  This is important to avoid overwhelming the server with too many requests in a short period, which could lead to being blocked or flagged as a bot
+
+
+from bs4 import BeautifulSoup   # It is used for parsing and navigating the HTML content of the webpage.
 
 
 class HaikuScraper:
 	"""
-	This scraper is designed with the purpose of scraping Haikus (Japanese poems) from Reddit.
-	"""
+    This scraper is designed with the purpose of scraping Haikus (Japanese poems) from Reddit. The resultant data is stored in a CSV file. 
+    """
     def __init__(self, url: str, headers: dict):
-        self.url = url
-        self.headers = headers
+            self.url = url
+            self.headers = headers
 
     def make_request(self):
         time.sleep(3)
