@@ -1,4 +1,6 @@
 import re
+#re is a  built in module in python that provides support of regular expressions 
+#regular expressions are used to chcek the rpesence of a certain pattern in a string.
 
 # function to check whether the password is valid or not.
 def validator(password):

@@ -8,8 +8,11 @@ comp_count=0
 
 #INPUT;
 games=int(input("\nEnter the number of games you want to play: "))
+game_counter=0  
 
-while(comp_count+user_count<games):
+#used game counter variables to keep track of the umber of matches playes as the earlier loop would run infinitely if continuous ties occur this way we can ensure that the number  of matches played is eual to the number of matches user wanted to play 
+
+while(game_counter<games):
 	#WHILE LOOP STARTS;
 
 	flag=0
@@ -42,7 +45,7 @@ while(comp_count+user_count<games):
 
 	print("\nSCORE:")
 	print("User Score:",user_count,"\tComputer Score:",comp_count,"\n")
-
+	game_counter+=1
 	#LOOP ENDS;
 
 print("\n\t\tFINAL SCORE:")
