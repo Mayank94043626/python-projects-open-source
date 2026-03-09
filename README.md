@@ -12,9 +12,10 @@ A collection of simple python mini projects to enhance your Python skills.
 - Check existing scripts.
 - **Star** the repository.
 - On the GitHub page for this repository, click on the Button "**Fork**".
-   ![fork image](https://help.github.com/assets/images/help/repository/fork_button.jpg)
 - Create clone ***your forked repository*** on your local machine.
    ![code ui](https://docs.github.com/assets/images/help/repository/code-button.png)
+    
+    
     For example, run this command inside your terminal:
 
     ```bash
@@ -52,8 +53,6 @@ A collection of simple python mini projects to enhance your Python skills.
     ```
 
 - Go to the GitHub page of _your fork_, and **make a pull request**:
-
-    ![pull request image](https://help.github.com/assets/images/help/pull_requests/choose-base-and-compare-branches.png)
 
     Read more about pull requests on the [GitHub help pages](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 - Now wait, until one of us *reviews your Pull Request*! If there are any conflicts, you will get a notification.
