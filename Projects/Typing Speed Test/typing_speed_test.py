@@ -4,7 +4,7 @@ import ttkbootstrap as ttk
 from ttkbootstrap.constants import *
 from tkinter import messagebox
 
-# Mathis
+# Matthias
 
 #Sample sentences
 phrases = [
