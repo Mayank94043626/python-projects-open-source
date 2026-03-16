@@ -50,11 +50,14 @@ Namespaces are one honking great idea -- let's do more of those!"""
     message = f"Subject : {subject} \n\n {body}"
 
     with open("emails.csv", newline="") as csvfile:
-        spamreader = csv.reader(csvfile, delimiter=" ", quotechar="|")
-        for email in spamreader:
-            s.sendmail(Email_Address, email[0], message)
-            print("Send To " + email[0])
-
+        # added a try and except block to handle the exceptions if any occur during the process of sending email
+        try:
+            spamreader = csv.reader(csvfile, delimiter=" ", quotechar="|")
+            for email in spamreader:
+                s.sendmail(Email_Address, email[0], message)
+                print("Send To " + email[0])
+        except Exception as e:
+            print(e)
     # terminating the session
     s.quit()
     print("sent")
